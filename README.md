@@ -29,9 +29,9 @@ export LLAMA_API_KEY="your-api-key"
 dotnet run
 ````
 
-### Windows PowerShell
+### CLI
 
-```powershell
+```CLI
 $env:LLAMA_BASE_URL = "http://192.168.0.140:8080"
 $env:LLAMA_API_KEY = "your-api-key"
 
@@ -132,7 +132,7 @@ You can also set a simpler system prompt:
 /system You are a helpful coding assistant. Answer normally and do not call tools.
 ```
 
-## Build a release for Xubuntu
+## Build a release for Debian
 
 For a typical 64-bit Xubuntu computer:
 
